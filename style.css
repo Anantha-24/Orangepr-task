@@ -1038,3 +1038,248 @@ img.DJ-img {
         left: -3em;
  }
 }
+
+
+ @media (max-width: 767px){
+        .logo h1 {
+        left: 7em;
+        font-size: 20px;
+    }
+    .dots {
+    width: 14px;
+    height: 14px;
+    }
+    button.dot-btn {
+    padding: 7px;
+    }
+    .navbar-toggler-icon {
+    width: 20px;
+    height: 20px;
+    }
+    .d-flex.justify-content-end.align-items-center {
+        left: -1em;
+    }
+        h1.fresh {
+        font-size: 25px;
+            left: 3px;
+    }
+    h1.bright
+ {
+        font-size: 25px;
+    }
+        h1.juicy {
+        font-size: 25px;
+        line-height: 1px;
+    }
+        p.stream {
+        width: 175px;
+        font-size: 10px;
+        line-height: 10px;
+    }
+        .on-air {
+        left: 6em;
+        top: -5em;
+    }
+    .img-fluid {
+        max-width: 140px;
+        height: 95px;
+        padding: 4px;
+    }
+    button.play-btn {
+        right: 8.5em;
+        top: 1.5em;
+    }
+        .hero-text {
+        top: 5em;
+    }
+    .horizontal-line {
+        display: none;
+    }
+    .col-md-6.info h3 {
+    font-size: 15px;
+    }
+    .col-md-6.qk h3 {
+    font-size: 15px;
+}
+.col-md-6.secf {
+    display: flex;
+    margin-top: 1em;
+}
+.col-md-6.info {
+    margin-left: 2em;
+}
+.col-md-6.secf {
+    margin: auto;
+    justify-content: center;
+}
+.social-icons {
+    gap: 7px;
+}
+    p.footer-text {
+        font-size: 9px;
+    }
+    .social-icons i {
+    font-size: 14px;
+}
+.col-sm-5.think h2 {
+        font-size: 25px;
+        margin-left: 1em;
+    }
+        img.yellow-lady {
+        width: 300px;
+        right: 7em;
+        position: relative;
+    }
+    section.our {
+    margin: 1em;
+    }
+        section.our img {
+        width: 25px;
+        height: 25px;
+    }
+        p.ent {
+        font-size: 8px;
+    }
+    span.numm {
+        font-size: 12px;
+    }
+    h1.what {
+        font-size: 20px;
+        margin-top: 1em;
+    }
+
+button.btn.btn-primary.rdm-btn {
+    font-size: 9px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 80px;
+}
+
+    .slides2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+    }
+
+    /* WHAT WE DO section */
+    .slides2 .what {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    /* Media Relations */
+    .slides2 .med {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    /* Influencer Management */
+    .slides2 .ser {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    /* Events */
+    .slides2 .car {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    /* Images */
+    .slides2 .service-card,
+    .slides2 .service-card1 {
+        width: 100%;
+    }
+
+    .slides2 .med-img,
+    .slides2 .book-img,
+    .slides2 .DJ-img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .col-sm-5.what {
+        padding-left: 1em;
+    }
+    .overlay {
+        width: 335px;
+    }
+    .col-sm-2.ser {
+    top: -10em;
+    position: relative;
+}
+    .overlay1 h4.influ1 {
+        width: 268px;
+        height: 108px;
+        margin: auto;
+
+    }
+    .slides2 .med-img, .slides2 .book-img, .slides2 .DJ-img
+ {
+            width: 80%;
+            margin: auto;
+ }
+     .overlay {
+        width: 268px;
+        margin: auto;
+     }
+     img.DJ-img {
+    top: -22em;
+    position: relative;
+}
+    .overlay2 h4.events11 {
+        width: 268px;
+        height: 60px;
+        bottom: 22.9em;
+        font-size: 18px;
+        margin: auto;
+    }
+section.slides2 {
+    display: flex;
+    margin-bottom: -26em;
+}
+    h1.why-title {
+        width: 300px;
+        font-size: 18px;
+    }
+        .col-sm-4.one {
+        top: -16em;
+    }
+    section.why .row {
+    gap: 0em;
+}
+    .col-sm-4.two {
+        top: -14em;
+        position: relative;
+    }
+        img.group-img {
+        width: 350px;
+        top: -10em;
+        position: relative;
+    }
+    h1.head-testimonials {
+    position: relative;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin: auto;
+
+}
+.col-sm-12.testi-test {
+    width: 350px;
+}
+.get-in-touch1 {
+    padding: 60px 0;
+    background: #fff;
+    width: 389px;
+    height: 470px;
+    padding: 1em;
+    border-radius: 0px;
+    position: relative;
+    top: 6em;
+    right: 0em; 
+}
+
+}
