@@ -9,7 +9,6 @@ body{
     background:#fff;
 }
 
-/* Main Background */
 
 
 
@@ -19,12 +18,10 @@ body{
     height: 700px;
     background-image: url(./images/home-bgimg5.png);
     background-repeat: no-repeat;
-    /* background-position: center top; */
     background-size: cover;
     background-position: center;
 }
 
-/* Header */
 
 .header{
     padding-top:32px;
@@ -52,7 +49,7 @@ body{
     color:#fff;
     text-decoration:none;
 }
-/* on-air */
+
 .col-sm-6.on-air img {
     width: 385px;
     height: 293px;
@@ -116,13 +113,11 @@ h1.fresh {
 }
 h1.juicy {
     font-size: 100px;
-    /* left: 48px; */
     line-height: 50px;
     position: relative;
 }
 h1.bright {
     font-size: 100px;
-    /* left: 51px; */
     position: relative;
 }
 p.stream {
@@ -149,7 +144,6 @@ button.dot-btn {
 }
 
 .horizontal-line {
-    /* width: 1396px; */
     height: 1px;
     background: #fff;
     position: relative;
@@ -954,71 +948,9 @@ h1.head-testimonials {
 }
 
 @media (max-width: 768px) {
-    section.main-bg
-    {
-        width: 148%;
-    }
-    .logo h1 {
-        left: -1em;
-    }
-        .hero-text {
-        left: -11em;
-        top: 8em;
-    }
-        .on-air {
-        left: 16em;
-        top: -2em;
-    }
-    button.play-btn {
-        right: 13.5em;
-        top: 2.8em;
-    }
-    section.our {
-        left: 7em;
-        position: relative;
-    }
-    img.DJ-img {
-        left: 8em;
-    }
-    .col-sm-2.ser {
-    left: 5em;
-    position: relative;
-    }
-    p.we-text {
-        margin-right: 3em;
-        margin-top: 1em;
-    }
-    h4.events11 {
-    left: 7.1em;
-}
-.overlay1 h4.influ1 {
-        height: 108px;
-}
-.rdm p.nu1 {
-    margin-left: 8em;
-}
-.rdm p.nu1 {
-    margin-left: 6em;
-}
-section.why .row {
-    gap: 1em;
-    left: 6em;
-    position: relative;
-}
-section.testimonials {
-    position: relative;
-    left: 5.5em;
-}
-img.DJ-img {
-        left: 8em;
-        position: relative;
-    }
-
-}
-
-@media (max-width: 768px) {
     section.main-bg {
-        width: 260%;
+        width: 100%;
+        height: 20vh;
     }
     .logo h1
  {
@@ -1030,13 +962,157 @@ img.DJ-img {
 }
 .hero-text
  {
-        left: 1em;
+        left: .5em;
+        top: 1em;
 }
     .d-flex.justify-content-end.align-items-center
 
  {
         left: -3em;
  }
+     h1.fresh {
+        font-size: 50px;
+    }
+        h1.juicy {
+        font-size: 50px;
+        line-height: 15px;
+    }
+    h1.bright {
+        font-size: 50px;
+    }
+        p.stream {
+        width: 230px;
+        font-size: 9px;
+        line-height: 12px;
+    }
+        a.explore-btn {
+        top: 0em;
+        padding: 7px;
+        padding-right: 15px;
+        padding-left: 12px;
+        font-size: 10px;
+  } 
+  .on-air {
+        left: 15em;
+        top: -13em;
+    }
+    .img-fluid {
+        max-width: 200px;
+        height: 136px;
+        padding: 8px;
+    }
+       button.play-btn {
+        right: 18.5em;
+        top: 3em;
+    }
+    .play-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    }
+  .horizontal-line {
+        bottom: 12.5em;
+    }
+        img.yellow-lady {
+        width: 245px;
+    }
+        .col-sm-7.orp {
+        left: 25em;
+        width: 350px;
+    }
+        p.ogp {
+        font-size: 11px;
+    }
+        button.btn.btn-primary.bl {
+        margin-top: 2.5em;
+        font-size: 12px;
+    }
+    .col-sm-3.clients {
+    border: none;
+}
+.col-sm-3.events {
+    border: none;
+}
+.col-sm-3.years {
+    border: none;
+}
+.col-sm-3.materials {
+    border: none;
+}
+section.our img {
+    width: 35px;
+    height: 35px;
+}
+p.ent {
+    font-size: 14px;
+}
+span.numm {
+    font-size: 16px;
+}
+    p.we-text {
+        margin-right: 5em;
+        margin-top: 0em;
+        font-size: 12px;
+    }
+    .rdm {
+    margin-top: 1em;
+}
+.col-sm-4.one {
+    width: 220px;
+    height: 280px;
+}
+p.strong {
+    margin-top: 1em;
+    font-size: 13px;
+}
+.col-sm-4.two {
+    width: 220px;
+    height: 285px;
+}
+.col-sm-4.three {
+    width: 220px;
+    height: 280px;
+}
+p.local {
+    font-size: 13px;
+    margin-top: 1em;
+}
+p.market {
+    font-size: 13px;
+    margin-top: 1em;
+}
+h1.why-title {
+        width: 782px;
+}
+img.group-img {
+        width: 650px;
+    }
+        .get-in-touch1 {
+        width: 510px;
+        height: 475px;
+    }
+        .col-md-6.org p {
+        font-size: 10px;
+    }
+    ul.links li a {
+    font-size: 12px;
+    }
+    ul.contact-info {
+    font-size: 13px;
+}
+.row.footer-des .col-md-6 h2 {
+    font-weight: 700;
+    font-size: 20px;
+}
+p.footer-text {
+    font-size: 10px;
+}
+.row.align-items-center.newsletter .col-md-6 h2 {
+    font-size: 18px;
+}
+.row.align-items-center.newsletter st.col-md-6 p {
+    font-size: 12px;
+}
 }
 
 
